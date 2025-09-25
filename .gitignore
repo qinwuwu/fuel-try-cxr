@@ -1,0 +1,32 @@
+# ROS 编译目录
+/devel/
+/build/
+/install/
+
+# 二进制文件
+*.so
+*.a
+*.o
+*.bin
+*.out
+
+# 日志
+*.log
+/log/
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
